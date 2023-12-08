@@ -1,0 +1,17 @@
+.bg{
+  background-color: hsl(185, 41%, 84%);
+  height: 100vh;
+  color: hsl(184, 14%, 56%);
+  font-weight: 700;
+  font-family:[Space Mono]-
+    \+;
+}
+.bg2{
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 25px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
