@@ -42,8 +42,8 @@ if (bill===NaN || person===NaN || tipPercent===NaN){
   return (
     <>
       <div className="bg flex justify-center items-center h-screen flex-col ">
-        <img className="lg:-mt-[100px]" src={Split}></img>
-        <div className="bg-white lg:m-0 m-6 lg:mt-20 mt-8 rounded-2xl">
+        <img className="lg:-mt-[100px] -mt-60" src={Split}></img>
+        <div className="bg-white w-1/2  lg:m-0  lg:mt-20 mt-8 rounded-2xl">
           <div className="flex lg:flex-row flex-col">
             <div className="lg:w-[45%] m-5">
               <label className=""> Bill</label>
@@ -143,7 +143,7 @@ if (bill===NaN || person===NaN || tipPercent===NaN){
                   setPerson(0);
                   setTipPercent("");
                 }}
-                className="rounded mt-14 lg:ml-16 ml-8 py-1 w-3/4 bg-teal-400 text-teal-900"
+                className="rounded mt-14  ml-10 py-1 w-3/4 bg-teal-400 text-teal-900"
               >
                 Reset
               </button>
